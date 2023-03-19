@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+*{ 
+padding:0;
+margin:0;
+box-sizing: border-box; 
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+}
+
+#logo{
+    height:120px;
+    float: left;
+    margin-top: 15px;
+}
+
+.navbar{
+width: 100%;
+font-family: 'sono', sans-serif;
+background-color: white;
+text-align: center;
+height: 150px;
+z-index: 1;
+top: 0;
+position: fixed;
+border-bottom: 1px black solid;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul{
+    margin-top: 35px;
+    margin-left: 60px;
+    display: inline-flex;
+    list-style: none;
+    float:right;
+}
+
+.navbar ul li{
+    width: 100%;
+    margin: 20px 40px;
+    padding: 7px 15px;
+    background-color: black;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar ul li:hover{
+    background-color: white;
+    border: 1px black solid;
+    }
+
+.navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.navbar2{
+    width: 100%;
+    font-family: 'sono', sans-serif;
+    background-color: white;
+    text-align: center;
+    height: 150px;
+    top: 0;
+    border-bottom: 1px black solid;
+    margin-bottom: 0;
+}
+
+.navbar2 ul{
+    margin-top: 35px;
+    margin-left: 60px;
+    display: inline-flex;
+    list-style: none;
+    float:right;
+}
+
+.navbar2 ul li{
+    width: 100%;
+    margin: 20px 40px;
+    padding: 7px 15px;
+    background-color: black;
+
+}
+
+.navbar2 ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar2 ul li:hover{
+    background-color: white;
+    border: 1px black solid;
+    }
+
+.navbar2 ul li a:hover{
+    color: black;
+}
+
+input{
+    font-family: 'sono', sans-serif;
+    height: 35px;
+    width: 170px;
+    margin: 0 20px;
+    margin-top: 19px;
+    outline: none;
+    border: 1px black solid;
+}
+
+
+
+main{
+    margin-top:12%;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    color: white;
+    overflow: auto; 
+}
+.mainstory{
+    margin-left: 15px;
+    float: left;
+    position: relative;
+    width: 64%;
+    letter-spacing: 1px;
+    font-family: 'sono', sans-serif;
+}
+
+#image1{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.covertext{
+    margin-top: 50px;
+    margin-left: 35px;
+    top: 280px;
+    position: absolute;
+   
+}
+
+.covertext h1:hover{
+text-decoration: underline;
+}
+
+
+h3{ 
+    font-size: 15px;
+    font-family: 'sono', sans-serif;
+    margin-top: 20px;
+    color: rgb(130, 130, 130);
+
+}
+
+.mainstory h1{
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+    line-height: 60px;
+    color: white;
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    color: black;
+    font-size: 26px;
+    margin: 4%;
+    margin-top:0%;
+
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+.secondarystory{
+    margin-right: 15px;
+    float: right;
+    position: relative;
+    background-color: white;
+    justify-content: center;
+    width: 32%;
+    border-radius: 15px;
+    top: 0px;
+}
+
+#image2{
+    width:100%;
+}
+
+.secondarystory h3{
+    margin: 4%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    padding-bottom:20px;
+}
+
+.secondarystory #læsmere:hover{
+    text-decoration: underline;
+}
+
+p{
+    color:black;
+    margin: 4%;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+footer{
+    width: 100%;
+    border-top: 1px white solid;
+    font-family: 'sono', sans-serif;
+    color: white;
+    float: bottom;
+}
+
+#footerlogo{
+    margin-left: 42.5%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: block;
+    width: 15%;
+}
+
+footer p{
+    font-family: 'sono', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-left: 39%;
+    margin-right: 35%;
+}
+
+footer ul{
+    width:70%;
+    font-size: 14px;
+    text-decoration: underline;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    padding-bottom: 50px;
+}
+
+
+footer a:hover{
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+
+}
+
+.row{
+    width:100%;
+    margin:auto;
+    position: relative;
+    letter-spacing: 1px;
+    display:flex;
+    justify-content: center;
+
+
+}
+
+.row img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.article{
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    height: 450px;
+    width: 29%;
+    margin-bottom: 5%;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+.lastarticle{
+        float: right;
+        background-color: white;
+        border-radius: 15px;
+        height: 450px;
+        width: 29%;
+        margin-bottom: 5%;
+        margin-left:1%;
+        margin-right:1%;
+
+}
+
+.article h1{
+    padding-left: 10px;
+    font-family: 'PT serif', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+    
+.lastarticle h1{
+        padding-left: 10px;
+        font-family: 'PT serif', sans-serif;
+        color: black;
+        font-size: 30px;
+       
+}
+
+.article h1:hover{
+    text-decoration: underline;
+}
+.lastarticle h1:hover{
+    text-decoration: underline;
+}
+
+.article h3{
+    float:right;
+    color: rgb(133, 133, 133);
+    
+}
+
+.lastarticle h3{
+    float:right;
+    color: rgb(133, 133, 133);
+}
+
+#titel{
+    float: left;
+    width: 50%;
+    
+}
+#topleft{
+    width:25%;
+    top: 120px;
+    float: left;
+
+
+}
+#topright{
+    width:25%;
+    top: 120px;
+    float: right;
+
+
+}
+
+#bottomright{
+    width:25%;
+    bottom: 1px;
+    float:right;
+
+
+
+}
+
+#bottomleft{    
+    width:25%;
+    bottom: 1px;
+    float:left;
+
+}
+
+#omosmain{
+    background-color: white;
+    margin:0;
+    padding:0;
+}
+    
+.omos{
+margin: 250px 300px;
+margin-bottom: 0;
+
+
+
+}
+
+.omos #titel{
+    margin:0;
+    width:70%;
+    margin: 0px 15%;
+    color: black;
+    
+}
+
+.omos p{
+    margin-top: 40px;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 2.4;
+    border: 1px black solid;
+    padding: 30px 60px;
+    z-index: 3;
+    position: relative;
+
+}
+
+#artikelmain{
+    background-color: rgb(255, 255, 255);
+    margin:0;
+    padding:0;
+}
+
+.story{
+    margin:0;
+    background-color: white;
+}
+
+#coverpic{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.story .covertext{
+    top:300px;
+    left:260px;
+
+
+}
+
+.story .covertext h1{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 80px;
+}
+
+.story .covertext h1:hover{
+    text-decoration: none;
+}
+
+#page{
+    background-color: white;
+    padding-top: 3%;
+}
+#page p{
+    margin:0px 300px;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px black dotted;
+}
+
+#page p strong{
+font-size: 30px;
+}
+
+#page h2:hover{
+    text-decoration: none;
+
+}
+
+#artpic1{
+    width: 50%;
+    margin-right: 15px;
+    float:right;
+    top:0;
+    margin: 10px 10px;
+    margin-top: 25px;
+}
+
+#ad{
+    width:100%;
+    margin-bottom: 40px;
+}
+
+#artpic2{
+    width: 40%;
+    margin-right: 20px;
+    float:left;
+
+}
+
+#artpic3{
+    width: 27%;
+    margin: 0px 10px;
+    margin-right: 50px;
+    float:right;
+    top:0;
+}
+
+#læsogså h2{
+    color: black;
+    margin: 0px 300px;
+    padding-bottom:20px;
+    margin-top:30px;
+}
+
+#læsogså .row{
+    width:100%;
+    margin:auto;
+    padding-top:20px;
+    position: relative;
+    letter-spacing: 1px;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#læsogså .row img{
+    width: 100%;
+    border-radius: 15px;
+    bottom:0;
+}
+
+
+#læsogså .article{
+    float: left;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 280px;
+    width: 29%;
+    margin-bottom: 5%;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+#læsogså .lastarticle{
+        float: right;
+        background-color: rgb(0, 0, 0);
+        border-radius: 15px;
+        height: 280px;
+        width: 29%;
+        margin-bottom: 5%;
+        margin-left:1%;
+        margin-right:1%;
+
+}
+
+#læsogså .article h1{
+    padding-left: 10px;
+    font-family: 'PT serif', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+    
+#læsogså .lastarticle h1{
+        padding-left: 10px;
+        font-family: 'PT serif', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       
+}
+
+#læsogså .article h1:hover{
+    text-decoration: underline;
+}
+#læsogså .lastarticle h1:hover{
+    text-decoration: underline;
+}
+
+#læsogså .article h3{
+    float:right;
+    color: rgb(133, 133, 133);
+    
+}
+
+#læsogså .lastarticle h3{
+    float:right;
+    color: rgb(133, 133, 133);
+}
